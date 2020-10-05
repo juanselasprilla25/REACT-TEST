@@ -2,21 +2,35 @@ import React from "react"
 import { Link } from "gatsby"
 
 import Layout from "../components/layout"
-import Image from "../components/image"
 import SEO from "../components/seo"
 
-const IndexPage = () => (
-  <Layout>
-    <SEO title="Home" />
-    <h1>Hi people</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
-    <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
-      <Image />
-    </div>
-    <Link to="/page-2/">Go to page 2</Link> <br />
-    <Link to="/using-typescript/">Go to "Using TypeScript"</Link>
-  </Layout>
-)
+export default function IndexPage() {
+  return (
+    <Layout>
+      <SEO title="Home" />
+      <h1
+        style={{
+          marginBottom: `45px`,
+        }}
+      >
+        ToDo List & Map Changes Tracker
+      </h1>
+      <div className="buttonGroup">
+        <Link to="/todo/" className="button" tabIndex="0">
+          ToDo App
+        </Link>
+        <Link to="/map/" className="button" tabIndex="0">
+          Map Tracker
+        </Link>
+      </div>
+      <br />
+    </Layout>
+  )
+}
 
-export default IndexPage
+// <!-- FontAwesome -->
+//     <script
+//       src="https://kit.fontawesome.com/e0e17162fa.js"
+//       crossorigin="anonymous"
+//     ></script>
+//     <!-- FontAwesome -->
