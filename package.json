@@ -33,6 +33,7 @@
   ],
   "license": "0BSD",
   "scripts": {
+    "heroku-postbuild": "gatsby build",
     "build": "gatsby build",
     "develop": "env-cmd -f .env.development gatsby develop",
     "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
