@@ -19,4 +19,4 @@ In the project directory, you can run the porject in 'development' mode:
 
 For the 'production' view, you can visit:
 
-### `https://sennheiser-test-shop.herokuapp.com/`
+### `https://react-gatsby-test.herokuapp.com/`
