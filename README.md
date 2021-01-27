@@ -1,4 +1,4 @@
-This project was created for a especific React App
+This project was created for a specific React App
 
 The project shows the development of a web app with two functionalities:
 
