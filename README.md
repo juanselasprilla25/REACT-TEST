@@ -1,4 +1,4 @@
-This project was created for a especific REACT job interview for SEREMPRE.
+This project was created for a especific React App
 
 The project shows the development of a web app with two functionalities:
 
@@ -19,4 +19,4 @@ In the project directory, you can run the porject in 'development' mode:
 
 For the 'production' view, you can visit:
 
-### `https://react-gatsby-test.herokuapp.com/`
+### Functionability in [`https://react-gatsby-test.herokuapp.com/`]
