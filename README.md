@@ -19,4 +19,4 @@ In the project directory, you can run the porject in 'development' mode:
 
 For the 'production' view, you can visit:
 
-### Functionability in [`https://react-gatsby-test.herokuapp.com/`]
+### Functionability in [https://react-gatsby-test.herokuapp.com/]
